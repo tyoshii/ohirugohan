@@ -7,7 +7,7 @@ class Ohirugohan {
 
   protected function model ( $name ) {
 
-    require_once __DIR__."../model/{$name}.php";
+    require_once dirname(__FILE__)."/../model/{$name}.php";
     $this->$name = new $name();
   }
 }
