@@ -4,5 +4,6 @@
          //'top' => array( 'model' => 'Top', 'view' => 'top'),
          'oil' => array( 'model' => 'Oil', 'view' => 'oil'),
          'illust' => array( 'model' => 'Illust', 'view' => 'illust'),
-         'profile' => array( 'model' => 'Profile', 'view' => 'profile')
+         'profile' => array( 'model' => 'Profile', 'view' => 'profile'),
+         'image' => array( 'model' => 'Image', 'view' => 'Image' )
     );
