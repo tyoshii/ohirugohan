@@ -1,8 +1,6 @@
 <?php
 require_once(__DIR__.'/def.php');
 if(!isset($_SESSION['user']) || $_SESSION['user'] === ''){
-  header("Location: http://$HOST/$ROOT_DIR/auth.php?callback=http://${_SERVER['SERVER_NAME']}${_SERVER['REQUEST_URI']}");
-} else {
 ?>
 <html>
 <head>
@@ -10,7 +8,15 @@ if(!isset($_SESSION['user']) || $_SESSION['user'] === ''){
   <title></title>
 </head>
 <body>
+  <div>error:</div>
+  <div>セッションが切れました。</div>
+  <div>再ログインしてください。</div>
+  <a href="index.php">ログイン</a>
 </body>
 </html>
 <?php
+} else {
+  // TODO:edit file
+
+  header("Location: http://$HOST/$ROOT_DIR/list.php");
 }

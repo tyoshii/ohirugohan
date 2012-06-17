@@ -40,7 +40,7 @@ $images[] = $i;
     print $img->getTitle();
     print "</td>\n";
     print '       <td>';
-    print '<a href="edit.php?id='.$img->getId().'">edit</a>';
+    print '<a href="edit_page.php?id='.$img->getId().'">edit</a>';
     print "</td>\n";
     print '       <td>';
     print '<a href="remove.php?id='.$img->getId().'">remove</a>';
