@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E8E8E8;
+    width: 100%;
+}
+#my_body {
+    background-image: url("../images/background_note_text.gif");
+    background-repeat: no-repeat;
+    font-size: 14px;
+    height: 780px;
+    position: relative;
+    width: 900px;
+}
+#my_navigation {
+    left: 28px;
+    list-style-type: none;
+    position: absolute;
+    top: 178px;
+    width: 183px;
+}
+#my_contents {
+    margin-left: 240px;
+    text-align: center;
+}
+#my_header {
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+}
+#my_footer {
+    clear: both;
+    font-size: 14px;
+    position: absolute;
+    text-align: right;
+    top: 760px;
+    width: 100%;
+}
