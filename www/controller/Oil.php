@@ -1,6 +1,6 @@
 <?php
 
-class Oil {
+class Oil extends Ohirugohan {
 
     private $_data;
 

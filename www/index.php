@@ -1,5 +1,7 @@
 <?php
-    require_once("routing.php");
+    require_once( dirname(__FILE__).'/config/routing.php');
+    require_once( dirname(__FILE__).'/system/Ohirugohan.php');
+
     $_request_url = $_SERVER['REQUEST_URI'];
 
     $url = explode('/',$_request_url);
