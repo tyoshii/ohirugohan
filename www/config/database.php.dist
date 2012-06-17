@@ -1,0 +1,10 @@
+<?php
+
+$_database = array();
+
+$_database['common']['driver'] = 'driver name';
+$_database['common']['user']   = 'user name';
+$_database['common']['host']   = 'host name';
+$_database['common']['port']   = 'port number';
+$_database['common']['passwd'] = 'password';
+$_database['common']['dbname'] = 'connect database name';
