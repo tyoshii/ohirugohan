@@ -8,6 +8,7 @@ class admin extends Ohirugohan {
     private $_category;
 
     function __construct( $request ) {
+      parent::__construct();
       self::_authorized();
     }
     function setData($image_list) {
