@@ -86,7 +86,7 @@
 
 
 
-<div id="my_footer"><p>Copyright c 2010 HOMMA Ikumi All Rights Reserved.</p></div>
+<div id="my_footer"><p>Copyright HOMMA Ikumi All Rights Reserved.</p></div>
 
 </div>
 
