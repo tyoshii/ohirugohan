@@ -6,5 +6,6 @@
          'illust'  => array( 'model' => 'Illust',  'view' => 'illust'  ),
          'profile' => array( 'model' => 'Profile', 'view' => 'profile' ),
          'image'   => array( 'model' => 'Image',   'view' => 'Image'   ),
+         'admin'   => array( 'model' => 'Admin',   'view' => 'admin'   ),
          'api'     => array( 'model' => 'api',     'view' => 'api'     )
     );
