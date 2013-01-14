@@ -5,10 +5,7 @@ class admin extends Ohirugohan {
     private $_data;
     private $_category;
 
-    /*
-     * @request array('category'=>'oil','image'=>'kuru')
-     */
-    function __construct() {
+    function __construct( $request ) {
 var_dump($request);
     }
     function setData($image_list) {
