@@ -23,7 +23,7 @@ class admin extends Ohirugohan {
         return $this->_category;
     }
 
-    private static function _authorized() {
+    private function _authorized() {
       $callback = $this->input->get('callback');
       if ( ! isset($callback) || $callback === '' ) {
         $callback = 'http://ohirugohan.net';
