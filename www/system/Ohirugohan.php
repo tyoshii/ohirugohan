@@ -1,8 +1,14 @@
 <?php
 
+require_once 'system/Ohirugohan/Input.php';
+
 class Ohirugohan {
 
-  public function __construct() {}
+  public $input;
+
+  public function __construct() {
+    $this->input = new Ohirutohan_Input();
+  }
   public function __destruct() {}
 
   protected function model ( $name ) {
