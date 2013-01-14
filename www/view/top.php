@@ -9,11 +9,11 @@
 <link rel="stylesheet" href="static/css/pagerule.css"  type="text/css">
 <link rel="stylesheet" href="static/css/common.css"  type="text/css">
 </head>
-<body><div id="my_body">
+<body>
+<div id="my_body">
 <div id="my_header">
   <h1></h1>
 </div>
-
 
 <div id="my_navigation">
 
@@ -89,15 +89,12 @@
 <div id="my_footer"><p>Copyright c 2010 HOMMA Ikumi All Rights Reserved.</p></div>
 
 </div>
-<div id="apDiv7"><a href="http://ikumin.tyonmage.com/index.html"><img src="http://ikumin.tyonmage.com/back_and_icon/icon_slice/images/background_note_text_03.png" width="54" height="50" border="0"></a></div>
 
-<div id="apDiv8"><a href="http://ikumin.tyonmage.com/oil/index.html"><img src="http://ikumin.tyonmage.com/back_and_icon/icon_slice/images/background_note_text_05.png" width="55" height="50" border="0"></a></div>
-
-<div id="apDiv9"><a href="http://ikumin.tyonmage.com/illust/index.html"><img src="http://ikumin.tyonmage.com/back_and_icon/icon_slice/images/background_note_text_07.png" width="58" height="50" border="0"></a></div>
-
-<div id="apDiv10"><a href="http://ikumin.tyonmage.com/others/index.html"><img src="http://ikumin.tyonmage.com/back_and_icon/icon_slice/images/background_note_text_09.png" width="57" height="50" border="0"></a></div>
-
-<div id="apDiv11"><a href="http://ikumin.tyonmage.com/profil/index.html"><img src="http://ikumin.tyonmage.com/back_and_icon/icon_slice/images/background_note_text_11.png" width="53" height="50" border="0"></a></div>
+<div id="apDiv7"><a href="/"><img src="static/images/background_note_text_03.png" width="54" height="50" border="0"></a></div>
+<div id="apDiv8"><a href="/oil/"><img src="static/images/background_note_text_05.png" width="55" height="50" border="0"></a></div>
+<div id="apDiv9"><a href="/illust/"><img src="static/images/background_note_text_07.png" width="58" height="50" border="0"></a></div>
+<div id="apDiv10"><a href="/others/"><img src="static/images/background_note_text_09.png" width="57" height="50" border="0"></a></div>
+<div id="apDiv11"><a href="/profile/"><img src="static/images/background_note_text_11.png" width="53" height="50" border="0"></a></div>
 
 </body>
 </html>

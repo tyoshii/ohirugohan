@@ -8,7 +8,7 @@ class Top extends Ohirugohan {
         $this->setData($name);
 
         $this->model( 'Image' );
-        $this->Image->getImageList( 'type' );
+        $this->Image->getImageMeta( 'type' );
     }
     function setData($name) {
         $this->_data = $name;
