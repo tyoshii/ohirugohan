@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 class admin extends Ohirugohan {
 
     private $_data;

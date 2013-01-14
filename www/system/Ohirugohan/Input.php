@@ -1,15 +1,23 @@
 <?php
 
+session_start();
+
 class Ohirugohan_Input {
 
   private $_get;
   private $_post;
+  private $_session;
 
   public function __construct() {
-    $this->_get  = $_GET;
-    $this->_post = $_POST;
+    $this->_get     = $_GET;
+    $this->_post    = $_POST;
+    $this->_session = $_SESSION;
   }
   public function __destruct() {}
+
+  public function session ( $key = FALSE ) {
+    return self::_take( $this->_session, $key );
+  }
 
   public function get ( $key = FALSE ) {
     return self::_take( $this->_get, $key );
