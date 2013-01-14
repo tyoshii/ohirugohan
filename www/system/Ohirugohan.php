@@ -7,7 +7,7 @@ class Ohirugohan {
   public $input;
 
   public function __construct() {
-    $this->input = new Ohirutohan_Input();
+    $this->input = new Ohirugohan_Input();
   }
   public function __destruct() {}
 
