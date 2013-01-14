@@ -12,15 +12,16 @@ class Ohirugohan_Input {
   public function __destruct() {}
 
   public function get ( $key = FALSE ) {
-    return _take( $this->_get, $key );
+    return self::_take( $this->_get, $key );
   }
 
+  public function post ( $key = FALSE ) {
+    return self::_take( $this->_post, $key );
+  }
+  
   private function _take( $data, $key ) {
     if ( $key === FALSE || ! array_key_exists($key, $data) ) return NULL;
     return $data[$key];
   }
     
-  public function post ( $key = FALSE ) {
-    return _take( $this->_post, $key );
-  }
 }
